@@ -10,4 +10,4 @@ This repo is a personal challenge to myself to learn a little about LangChain ev
 
 > TODO - Use a table instead of a list for this section.
 
-- [Day 1](days/1/README.md) - Ensure two models load on my local machine.
+- [Day 1](day/1/README.md) - Ensure two models load on my local machine.
