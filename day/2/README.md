@@ -27,4 +27,6 @@ This is going to be an interesting day. Time to roll up my sleeves 💪 and get 
 
 Create several instances of `PromptTemplate` and perform some typical conde introspection. Test how to create a prompt with variables, and showcase partial prompts.
 
-### 
+### 2-deep-dive-into-ChatPromptTemplate.ipynb
+
+Simulate a chat with `ChatPromptTemplate`, then attempt to use it with the `mistral-7b-openorca`. It doesn't work quite like I expected, but I assume this is the fault of the model and not the prompt.
