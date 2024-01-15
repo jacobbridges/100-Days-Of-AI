@@ -19,13 +19,16 @@ On day 2, I wanted to deep dive into a single feature of LangChain: [prompt temp
                                                                       SystemMessagePromptTemplate
 ```
 
-This is going to be an interesting day. Time to roll up my sleeves 💪 and get to coding!
+For just one day of learning, let's focus on two fundamental prompts: `PromptTemplate` and `ChatPromptTemplate`.
 
 ## Notebooks
 
 ### 1-deep-dive-into-PromptTemplate.ipynb
 
-Create several instances of `PromptTemplate` and perform some typical conde introspection. Test how to create a prompt with variables, and showcase partial prompts.
+Explore the functionalities and applications of the `PromptTemplate` class. I begin with a simple prompt template without any variables, then move into templates with input variables. One interesting topic in this notebook is the discovery of partial prompts -- I didn't know langchain supported these, but they are quite powerful!
+
+Nothing too ground-breaking here, but these are the fundamental building blocks needed to understand the rest of the library. Also at the end of the notebook there is an optional section where I use a `PromptTemplate` to interact with the `mistral-7b-openorca` model. Check it out if you are a "hands-on" learner!
+
 
 ### 2-deep-dive-into-ChatPromptTemplate.ipynb
 
