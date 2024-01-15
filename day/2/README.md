@@ -32,4 +32,6 @@ Nothing too ground-breaking here, but these are the fundamental building blocks 
 
 ### 2-deep-dive-into-ChatPromptTemplate.ipynb
 
-Simulate a chat with `ChatPromptTemplate`, then attempt to use it with the `mistral-7b-openorca`. It doesn't work quite like I expected, but I assume this is the fault of the model and not the prompt.
+Demonstrate the creation of a simple chatbot using the `ChatPromptTemplate` from the `langchain.prompts` module. The chatbot is programmed to respond with 'BING BONG' to any input it receives from the user. The `from_messages` method is used to define the chat flow, which includes system instructions, human inputs, and AI responses. 
+
+In the end I attempted to use the template with the `mistral-7b-openorca`. It doesn't work quite like I expected, but I assume this is because the model was trained to use OpenAI's `ChatML` format for conversations which is not supported by langchain. More information available in the notebook.
