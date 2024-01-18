@@ -1,11 +1,12 @@
 # Day 1
 
-My first day of learning LangChain was about loading some models. I did not want to spend money on OpenAI's API, so the logical starting point was finding some models to use locally.
+My first day of learning AI was to load some models. I did not want to spend money on OpenAI's API, so the logical starting point was finding some models to use locally.
 
 I will be using the following models in my learning:
 
 - [Tiny Llama](https://github.com/jzhang38/TinyLlama) - Can be loaded on most devices, and the mascot on this one is adorable. 🦙
 - [mistral-7b-openorca](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca) - Was highly rated on gpt4all.io, and I love orcas.
+- [whisper](https://github.com/openai/whisper) - OpenAI's whisper model, used to translate audio into text.
 
 ## Notebooks
 
