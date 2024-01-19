@@ -17,3 +17,7 @@ Fetch the tiny llama model from HuggingFace, then utilizes it in a chat setting.
 ### 2-load-mistral-7b-model.ipynb
 
 Load the mistral-7b-openorca model and submits a simple prompt. Assumes the mistral-7b-openorca model has already been downloaded to the `models` in the root of the repo.
+
+### 3-load-whisper-model.ipynb
+
+Use the OpenAI whisper model locally to convert a small audio file into text.
