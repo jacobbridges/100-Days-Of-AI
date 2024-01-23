@@ -12,3 +12,5 @@ This repo is a personal challenge to myself to learn more about AI and document 
 
 - [Day 1](day/1/README.md) - Ensure some models load on my local machine.
 - [Day 2](day/2/README.md) - Learn about prompt templates from `langchain`.
+- [Day 3](day/3/README.md) - Practice some prompt engineering.
+- [Day 4](day/4/README.md) - Different methods of summarization: Stuffing, Map-Reduce, & Refine
