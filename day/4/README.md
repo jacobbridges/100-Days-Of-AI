@@ -13,11 +13,16 @@ I am referencing a few different blog posts for my learnings today:
 
 [View Notebook](./1-summarize-via-stuffing.ipynb) &nbsp; • &nbsp; [Open Notebook in Collab](https://colab.research.google.com/github/jacobbridges/100-Days-Of-AI/blob/main/day/4/1-summarize-via-stuffing.ipynb)
 
-This notebook covers the simplest summarization method, "Stuffing". I learn a bit about context windows, [LangChain Documents](https://github.com/langchain-ai/langchain/blob/master/libs/core/langchain_core/documents/base.py#L9), and the `load_summarize_chain()` function.
+Explanation of the simplest summarization method, "Stuffing". I learn a bit about context windows, [LangChain Documents](https://github.com/langchain-ai/langchain/blob/master/libs/core/langchain_core/documents/base.py#L9), and the `load_summarize_chain()` function.
 
 ### 2-summarize-via-map-reduce.ipynb
 
 [View Notebook](./2-summarize-via-map-reduce.ipynb) &nbsp; • &nbsp; [Open Notebook in Collab](https://colab.research.google.com/github/jacobbridges/100-Days-Of-AI/blob/main/day/4/2-summarize-via-map-reduce.ipynb)
 
-This notebook showcases the "Map-Reduce" method of summarizing documents. I was not a huge, as it begins to feel like a [game of telephone](https://en.wikipedia.org/wiki/Chinese_whispers), but was still interesting to learn about the technique.
+Showcase the "Map-Reduce" method of summarizing documents. I was not a huge, as it begins to feel like a [game of telephone](https://en.wikipedia.org/wiki/Chinese_whispers), but was still interesting to learn about the technique.
 
+### 3-summarize-via-refine.ipynb
+
+[View Notebook](./3-summarize-via-refine.ipynb) &nbsp; • &nbsp; [Open Notebook in Collab](https://colab.research.google.com/github/jacobbridges/100-Days-Of-AI/blob/main/day/4/3-summarize-via-refine.ipynb)
+
+Demonstration of the "Refine" summarization method. Of the methods I have covered so far, this is the best method for summarizing a large document which cannot by stuffed. The downside is the processing time -- since the summary is being refined by each new chunk of text from the source, the process must run sequentially.
