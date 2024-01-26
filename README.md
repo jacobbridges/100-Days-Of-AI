@@ -14,3 +14,12 @@ This repo is a personal challenge to myself to learn more about AI and document 
 - [Day 2](day/2/README.md) - Learn about prompt templates from `langchain`.
 - [Day 3](day/3/README.md) - Practice some prompt engineering.
 - [Day 4](day/4/README.md) - Different methods of summarization: Stuffing, Map-Reduce, & Refine
+
+## List of topics I want to explore further
+
+> The more I learn, the more I realize how much I don't know.
+> &mdash; Albert Einstein
+
+- Tokenization and why it differs between models.
+- Splitting large documents and maintaining context between chunks.
+- Agents! Agents sound _so cool_, but I want to learn the basics first.

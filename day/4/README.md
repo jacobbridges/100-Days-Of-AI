@@ -1,6 +1,6 @@
 # Day 4
 
-Today, I want to review the different methods of summarizing a document with LLMs. Text summarization is an NLP task which distills a large document into a smaller, more concise one.
+Today, I want to learn the different methods of summarizing a document with LLMs. Text summarization is an NLP task which distills a large document into a smaller, more concise one.
 
 I am referencing a few different blog posts for my learnings today:
   * [Mastering Document Chains in LangChain | Comet](https://www.comet.com/site/blog/mastering-document-chains-in-langchain/)
