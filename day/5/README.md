@@ -29,3 +29,17 @@ CONFIG["output_dir"]
 
 Each episode will get a folder within the output directory. This will be useful in future notebooks for saving the transcription and report next to the correct audio file.
 
+### 2-caption-podcast-episodes.ipynb
+
+[View Notebook](./2-caption-podcast-episodes.ipynb) &nbsp; • &nbsp; [Open Notebook in Collab](https://colab.research.google.com/github/jacobbridges/100-Days-Of-AI/blob/main/day/5/2-caption-podcast-episodes.ipynb)
+
+Short notebook, loop through each episode's audio file and transcribe via the whipser model. Save the transcription to the episode directory. Now the episode directory looks like:
+
+```
+CONFIG["output_dir"]
+└── YYYY-MM-DD TITLE
+    ├── YYYY-MM-DD TITLE.mp3
+    ├── transcript.txt
+    └── metadata.json
+```
+
