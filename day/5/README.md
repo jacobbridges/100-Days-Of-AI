@@ -43,3 +43,17 @@ CONFIG["output_dir"]
     └── metadata.json
 ```
 
+### 3-punctuate-podcast-transcripts.ipynb
+
+[View Notebook](./3-punctuate-podcast-transcripts.ipynb) &nbsp; • &nbsp; [Open Notebook in Collab](https://colab.research.google.com/github/jacobbridges/100-Days-Of-AI/blob/main/day/5/3-punctuate-podcast-transcripts.ipynb)
+
+Sometimes the base whisper model produces lengths of transcript without punctuation. This makes it difficult to split into chunks later for embeddings or summarizations. So we use the `deepmultilingualpunctuation` library to fill out the gaps in our punctuation. Now the episode directory looks like:
+
+```
+CONFIG["output_dir"]
+└── YYYY-MM-DD TITLE
+    ├── YYYY-MM-DD TITLE.mp3
+    ├── transcript.txt
+    ├── transcript_with_punctuation.txt
+    └── metadata.json
+```
